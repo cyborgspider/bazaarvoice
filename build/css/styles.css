@@ -1,0 +1,442 @@
+/* line 5, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 20, ../../src/styles/styles.scss */
+body {
+  font: 14px/1.5 'open-sans', sans-serif;
+  font-weight: 400;
+  color: #3d3d3d;
+}
+
+/* line 25, ../../src/styles/styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+/* line 26, ../../src/styles/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 11, ../../src/styles/styles.scss */
+section:before, section:after {
+  content: " ";
+  display: table;
+}
+/* line 12, ../../src/styles/styles.scss */
+section:after {
+  clear: both;
+}
+
+/* line 28, ../../src/styles/styles.scss */
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+/* line 11, ../../src/styles/styles.scss */
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+/* line 12, ../../src/styles/styles.scss */
+.container:after {
+  clear: both;
+}
+
+/* line 29, ../../src/styles/styles.scss */
+.cl-sm {
+  clear: both;
+}
+
+/*HERO SECTION*/
+/* line 32, ../../src/styles/styles.scss */
+.stars {
+  background: url(../img/review-stars.png) no-repeat;
+  width: 151px;
+  height: 21px;
+  margin: 0 auto 10px;
+}
+
+/* line 33, ../../src/styles/styles.scss */
+.text-special {
+  background: url(../img/once-a-month.png) no-repeat;
+  width: 113px;
+  height: 21px;
+  text-indent: -9999px;
+  margin: 0 auto 70px;
+}
+
+/* line 34, ../../src/styles/styles.scss */
+.section-hero {
+  color: #fff;
+  background: #000 url(../img/bg-hero.jpg) no-repeat center;
+  text-align: center;
+  padding: 80px 0 30px;
+}
+/* line 36, ../../src/styles/styles.scss */
+.section-hero h1 {
+  font-size: 67px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* line 37, ../../src/styles/styles.scss */
+.section-hero h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+/* line 38, ../../src/styles/styles.scss */
+.section-hero h2 span {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 32px;
+  display: block;
+  padding: 20px 0 10px;
+}
+
+/* line 41, ../../src/styles/styles.scss */
+.choose-product {
+  border: 1px solid #fff;
+  text-align: left;
+  padding-left: 20px;
+  display: block;
+  background: url(../img/arrow-down.png) 90% 50% no-repeat;
+  width: 205px;
+  height: 42px;
+  line-height: 42px;
+  margin: 0 auto;
+  color: #fff;
+  -moz-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 42, ../../src/styles/styles.scss */
+.choose-product:hover {
+  background-color: #000;
+  border-color: #000;
+  text-decoration: none;
+}
+
+/*HOW TO ENTER SECTION*/
+/* line 46, ../../src/styles/styles.scss */
+.section-how-to-enter {
+  color: #006766;
+  background-color: #f9f9f9;
+}
+/* line 47, ../../src/styles/styles.scss */
+.section-how-to-enter h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 50px 0;
+}
+/* line 48, ../../src/styles/styles.scss */
+.section-how-to-enter h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* line 50, ../../src/styles/styles.scss */
+.img-how-to-enter {
+  position: relative;
+  width: 716px;
+  height: 646px;
+  float: left;
+}
+
+/* line 51, ../../src/styles/styles.scss */
+.img-callout {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  width: 150px;
+  text-align: center;
+}
+/* line 52, ../../src/styles/styles.scss */
+.img-callout h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 54, ../../src/styles/styles.scss */
+.list-how-to-enter {
+  padding-top: 70px;
+  padding-left: 70px;
+  margin-left: 80px;
+  max-width: 350px;
+  float: left;
+}
+/* line 56, ../../src/styles/styles.scss */
+.list-how-to-enter > li {
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 58, ../../src/styles/styles.scss */
+.list-how-to-enter > li:before {
+  content: '';
+  width: 53px;
+  height: 53px;
+  border: 1px solid #006766;
+  border-radius: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 53px;
+  left: -70px;
+}
+/* line 59, ../../src/styles/styles.scss */
+.list-how-to-enter > li.step-1:before {
+  content: '1';
+}
+/* line 60, ../../src/styles/styles.scss */
+.list-how-to-enter > li.step-2:before {
+  content: '2';
+}
+/* line 61, ../../src/styles/styles.scss */
+.list-how-to-enter > li.step-3:before {
+  content: '3';
+}
+/* line 65, ../../src/styles/styles.scss */
+.list-how-to-enter p {
+  color: #3d3d3d;
+}
+
+/*TIPS SECTION*/
+/* line 69, ../../src/styles/styles.scss */
+.section-tips {
+  background: #006766 url(../img/bg-tips.png) center repeat-x;
+  color: #fff;
+}
+/* line 70, ../../src/styles/styles.scss */
+.section-tips h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 50px 0;
+}
+/* line 71, ../../src/styles/styles.scss */
+.section-tips h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+/* line 72, ../../src/styles/styles.scss */
+.section-tips p {
+  color: #e4e4e4;
+}
+
+/* line 75, ../../src/styles/styles.scss */
+.list-tips > li {
+  float: left;
+  max-width: 430px;
+  margin-bottom: 60px;
+}
+/* line 77, ../../src/styles/styles.scss */
+.list-tips > li:nth-child(even) {
+  margin-left: 18%;
+}
+
+/*BROWSE SECTION*/
+/* line 82, ../../src/styles/styles.scss */
+.section-products {
+  color: #3d3d3d;
+  padding: 50px 0;
+}
+/* line 83, ../../src/styles/styles.scss */
+.section-products h2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* line 85, ../../src/styles/styles.scss */
+.btn-browse {
+  background: url(../img/btn-browse.png) no-repeat;
+  width: 309px;
+  height: 53px;
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  left: 10px;
+  font-size: 15px;
+}
+/* line 86, ../../src/styles/styles.scss */
+.btn-browse:hover {
+  text-decoration: none;
+  background-position: 0 100%;
+}
+
+/* line 90, ../../src/styles/styles.scss */
+.list-browse-products > li {
+  border: 1px solid #727272;
+  position: relative;
+  width: 328px;
+  height: 328px;
+  display: inline-block;
+  margin-left: 26px;
+}
+/* line 91, ../../src/styles/styles.scss */
+.list-browse-products > li img {
+  position: absolute;
+  z-index: 1;
+}
+/* line 92, ../../src/styles/styles.scss */
+.list-browse-products > li .btn-browse {
+  position: absolute;
+  bottom: 15px;
+  z-index: 2;
+}
+/* line 93, ../../src/styles/styles.scss */
+.list-browse-products > li:first-child {
+  margin-left: 0;
+}
+
+/* line 96, ../../src/styles/styles.scss */
+.search-wrap {
+  width: 560px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 97, ../../src/styles/styles.scss */
+.search-wrap h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  top: 18px;
+}
+
+/* line 99, ../../src/styles/styles.scss */
+.input-wrap {
+  position: relative;
+  width: 330px;
+  height: 48px;
+  border: 1px solid #3d3d3d;
+  overflow: hidden;
+  margin-left: 225px;
+}
+/* line 100, ../../src/styles/styles.scss */
+.input-wrap input[type="text"] {
+  background: #fff;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+  position: absolute;
+  left: 0;
+  border: none;
+  width: 80%;
+  height: 100%;
+}
+/* line 101, ../../src/styles/styles.scss */
+.input-wrap input[type="text"]:focus {
+  font-style: normal;
+  font-weight: 400;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+/* line 103, ../../src/styles/styles.scss */
+.input-wrap input[type="submit"] {
+  border: none;
+  text-indent: -9999px;
+  background: url(../img/input-search.png) no-repeat;
+  position: absolute;
+  right: 0;
+  width: 51px;
+  height: 48px;
+}
+
+/*FOOTER SECTION*/
+/* line 107, ../../src/styles/styles.scss */
+.section-footer {
+  background: #2a2a2a;
+  color: #aaa;
+  font-size: 12px;
+  padding: 50px 0;
+}
+/* line 108, ../../src/styles/styles.scss */
+.section-footer a {
+  color: #006766;
+  text-decoration: underline;
+}
+
+/*RESPONSIVE MEDIA QUERIES*/
+@media screen and (max-width: 768px) {
+  /* line 113, ../../src/styles/styles.scss */
+  .cl-sm {
+    clear: none;
+  }
+}
