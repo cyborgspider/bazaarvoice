@@ -53,7 +53,7 @@ section{@include clearfix();}
 .img-callout{width:232px;height:247px;background:url(../img/img-callout.png);padding:60px 20px 0;position:absolute;top:-70px;right:-130px;text-align:center;@include box-sizing(border-box);
   h3{font-size:24px;margin-bottom:12px;font-weight:$fw-semibold;text-transform:uppercase}
 }
-.list-how-to-enter{padding-top:70px;padding-left:70px;margin-left:80px;max-width:350px;position:absolute;left:700px;
+.list-how-to-enter{padding-left:70px;margin-left:80px;max-width:350px;position:absolute;left:700px;
 
   & > li{position:relative;margin-bottom:30px;
 
