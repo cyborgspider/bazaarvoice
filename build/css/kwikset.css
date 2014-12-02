@@ -203,20 +203,26 @@ section:after {
 /* line 50, ../../src/styles/kwikset.scss */
 .img-how-to-enter {
   position: relative;
-  width: 545px;
+  width: 478px;
   height: 534px;
   float: left;
 }
 
 /* line 51, ../../src/styles/kwikset.scss */
 .img-callout {
+  padding: 45px 20px 0;
   position: absolute;
-  top: 75px;
-  right: 20px;
-  width: 150px;
+  top: 40px;
+  right: -70px;
+  width: 192px;
+  height: 278px;
+  background: url(../img/kwikset/img-callout.png);
   text-align: center;
   color: #3d3d3d;
   font-size: 16px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* line 52, ../../src/styles/kwikset.scss */
 .img-callout h3 {
@@ -248,7 +254,8 @@ section:after {
   padding-left: 70px;
   margin-left: 80px;
   max-width: 350px;
-  float: left;
+  position: absolute;
+  left: 500px;
 }
 /* line 59, ../../src/styles/kwikset.scss */
 .list-how-to-enter > li {
@@ -408,7 +415,7 @@ section:after {
 }
 /* line 106, ../../src/styles/kwikset.scss */
 .search-wrap h3 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
   position: absolute;
