@@ -2,10 +2,10 @@
 @import "compass/css3";
 
 $red : #8d0019;
-$fw-light: 300;
-$fw-regular: 400;
-$fw-semibold: 600;
-$fw-bold: 700; 
+$fw-light: lighter;
+$fw-regular: normal;
+$fw-semibold: normal;
+$fw-bold: bold; 
 
 @mixin clearfix(){
   &:before, &:after { content: " "; display: table; }
@@ -18,40 +18,44 @@ $fw-bold: 700;
 // @include all-icon-sprites(true);
 
 body{
-  font:14px/1.5 'open-sans', sans-serif;
+  font:14px/1.5 arial, sans-serif;
   font-weight:$fw-regular;
   color:#3d3d3d;
 }
 h1,h2,h3,h4,h5,h6{line-height:1}
 a{text-decoration:none;}
 section{@include clearfix();}
-.container{max-width:1050px;margin:0 auto;@include clearfix();}
+.container{max-width:900px;margin:0 auto;@include clearfix();}
 .cl-sm{clear:both;}
 
 /*HERO SECTION*/
 .stars{background:url(../img/review-stars.png) no-repeat;width:151px;height:21px;margin:0 auto 10px;}
 .text-special{background:url(../img/once-a-month.png) no-repeat;width:113px;height:21px;text-indent:-9999px;margin:0 auto 70px;}
-.section-hero{color:#fff;background:#000 url(../img/kwikset/bg-hero.jpg) no-repeat center;text-align:center;padding:80px 0 30px;
+.section-hero{color:#fff;background:#000 url(../img/kwikset/bg-hero.jpg) no-repeat center center;text-align:center;padding:50px 0 30px;font-family:'open-sans';
 
   h1{font-size:67px;font-weight:$fw-semibold;text-transform:uppercase;}
   h2{font-size:28px;font-weight:$fw-light;
     span{font-weight:$fw-bold;text-transform:uppercase;font-size:32px;display:block;padding:20px 0 10px;}
   }
 }
-.choose-product{border:1px solid $red;text-align:left;padding-left:20px;display:block;background:url(../img/kwikset/arrow-down.png) 90% 50% no-repeat;width:205px;height:42px;line-height:42px;margin:0 auto;color:#fff;@include transition(background-color 0.2s ease-out);text-transform:uppercase;font-weight:$fw-semibold;
-  &:hover{background-color:$red;text-decoration:none;}
+.choose-product{border:1px solid $red;color:$red;text-align:left;padding-left:20px;display:block;background:url(../img/kwikset/arrow-down.png) 90% 50% no-repeat;width:205px;height:42px;line-height:42px;margin:0 auto;@include transition(color 0.2s ease-out);text-transform:uppercase;font-weight:$fw-semibold;
+  &:hover{color:#fff;text-decoration:none;}
 }
 
 /*HOW TO ENTER SECTION*/
 .section-how-to-enter{background-color:#3f3f3f;color:#fff;
-  h1{text-align:center;font-size:40px;font-weight:$fw-regular;padding:50px 0;}
-  h2{font-size:24px;font-weight:$fw-semibold;margin-bottom:12px;}
+  h1{margin:50px auto 70px;background:url(../img/kwikset/txt-how-to-enter.png) no-repeat;width:220px;height:23px;text-indent:-9999px;}
+  h2{margin-bottom:16px;}
 }
-.img-how-to-enter{position:relative;width:716px;height:646px;float:left;}
-.img-callout{position:absolute;top:60px;right:40px;width:150px;text-align:center;
-  h3{font-size:24px;margin-bottom:12px;font-weight:$fw-semibold;text-transform:uppercase}
+.img-how-to-enter{position:relative;width:545px;height:534px;float:left;}
+.img-callout{position:absolute;top:75px;right:20px;width:150px;text-align:center;color:#3d3d3d;font-size:16px;
+  h3{font-size:20px;margin-bottom:12px;font-weight:$fw-semibold;text-transform:uppercase;color:$red;}
 }
-.list-how-to-enter{padding-top:70px;padding-left:70px;margin-left:80px;max-width:350px;float:left;
+.txt-find{background:url(../img/kwikset/txt-find-your-product.png) no-repeat;width:181px;height:13px;text-indent:-9999px}
+.txt-signup{}
+.txt-write{background:url(../img/kwikset/txt-write-your-review.png) no-repeat;width:182px;height:13px;text-indent:-9999px}
+
+.list-how-to-enter{padding-left:70px;margin-left:80px;max-width:350px;float:left;
   & > li{position:relative;margin-bottom:30px;
 
     &:before{content:'';width:53px;height:53px;border-radius:100%;position:absolute;text-align:center;font-size:24px;font-weight:$fw-light;line-height:53px;left:-70px;background:#5b595a;}
@@ -64,19 +68,27 @@ section{@include clearfix();}
 
 /*TIPS SECTION*/
 .section-tips{background:$red url(../img/kwikset/bg-tips.png) center repeat-x;color:#fff;
-  h1{text-align:center;font-size:40px;font-weight:$fw-regular;padding:50px 0;}
-  h2{font-size:24px;margin-bottom:12px;font-weight:$fw-regular;} 
+  h1{background:url(../img/kwikset/txt-tips-on-writing.png) no-repeat;width:373px;height:24px;margin:50px auto;text-indent:-9999px;}
+  h2{margin-bottom:12px;background:url(../img/kwikset/txt-tips.png) no-repeat;text-indent:-9999px;height:11px;
+
+    &.tip-be-real{background-position:0 0 ;}
+    &.tip-be-respectful{background-position:0 -11px}
+    &.tip-be-informative{background-position:0 -22px}
+    &.tip-avoid{background-position:0 -33px}
+
+  } 
   p{color:#e4e4e4;} 
 }
 .list-tips{
-  & > li{float:left;max-width:430px;margin-bottom:60px;
+  & > li{float:left;max-width:390px;margin-bottom:60px;
 
-    &:nth-child(even){margin-left:18%}
+    &:nth-child(even){margin-left:100px}
   }
 }
 
 /*BROWSE SECTION*/
-.section-products{color:#3d3d3d;padding:50px 0;
+.section-products{color:#3d3d3d;padding:50px 0;background:#fff;
+  h1{background:url(../img/kwikset/txt-choose-product.png) no-repeat;width:433px;height:24px;margin:0 auto 20px;text-indent:-9999px;}
   h2{font-size:24px;font-weight:$fw-regular;text-align:center;padding:30px 0;}
 }
 .btn-browse{background:url(../img/btn-browse.png) no-repeat;width:309px;height:53px;color:#fff;text-align:center;line-height:48px;left:10px;font-size:15px;
@@ -102,10 +114,5 @@ section{@include clearfix();}
 
 /*FOOTER SECTION*/
 .section-footer{background:#2a2a2a;color:#aaa;font-size:12px;padding:50px 0;
-  a{text-decoration:underline;}
-}
-
-/*RESPONSIVE MEDIA QUERIES*/
-@media screen and (max-width:768px){
-  .cl-sm{clear:none;}
+  a{text-decoration:underline;color:$red}
 }

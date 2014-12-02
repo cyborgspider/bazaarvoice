@@ -2,6 +2,7 @@
 html
   head
     title Bazaarvoice Kwikset
+    link(href="http://www.kwikset.com/App_Master/Css/Style.css", rel="stylesheet")
     link(href="css/kwikset.css", rel="stylesheet")
     <script src="//use.typekit.net/yrv0avv.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>      
@@ -22,62 +23,76 @@ html
           .img-callout 
             h3 To Submit a Review
             p Use this link below each product name.
-          img(src="img/how-to-gfx.png", alt="")
+          img(src="img/kwikset/how-to-gfx.jpg", alt="")
 
         ol.list-how-to-enter
           li.step-1
-            h2 Find your product
+            h2.txt-find Find your product
             p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
           li.step-2
-            h2 Sign up for a free account
+            h2.txt-signup Sign up for a free account
             p Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paria.
-
-          li.step-3
-            h2 Write your review
-            p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Sint occaecat cupidatat non.
 
       section.section-tips
         .container
           h1 Tips on Writing Reviews
           ul.list-tips
             li 
-              h2 Be Real
+              h2.tip-be-real Be Real
               p Write about your own experience and explain why you liked or disliked the product. Be as accurate as possible, and include both the positive and negative aspects of your experience.
 
             li
-              h2 Be Informative 
+              h2.tip-be-informative Be Informative 
               p Write about the specifics of the product you are reviewing; design, ease of use, ect. What makes the product unique.
 
             li.cl-sm
-              h2 Be respectful
+              h2.tip-be-respectful Be respectful
               p Not every experience with a product is going to be perfect. We are happy to receive constructive criticism, it helps us make better products. Please refrain from using profanity, obscene comments or spiteful remarks.
 
             li
-              h2 Avoid
+              h2.tip-avoid Avoid
               p Email addresses, URLs, phone numbers, physical addresses or other forms of contact information. Advertisements, “spam” content, or references to other products, offers or web sites
 
       section.section-products#browse
         .container
-          ul.list-browse-products
-            li
-              img(src="img/browse-kitchen.jpg", alt="Browse Kitchen")
-              a.btn-browse(href="#") Browse Kitchen Products
-
-            li
-              img(src="img/browse-bath.jpg", alt="Browse Bath")
-              a.btn-browse(href="#") Browse Bath Products
-
-            li
-              img(src="img/browse-tub.jpg", alt="Browse Tub")
-              a.btn-browse(href="#") Browse Tub &amp; Shower
+          h1 Choose a Product You Own
+          ul.browse_products.group
+              li
+                  a(href='/products/categories/handlesets.aspx')
+                    img(alt='HANDLESETS', src='http://www.kwikset.com/Images/browse_handlesets.png')
+                    span HANDLESETS
+    
+                li
+                  a(href='/products/categories/deadbolts.aspx')
+                    img(alt='DEADBOLTS', src='http://www.kwikset.com/Images/browse_deadbolts.png')
+                    span DEADBOLTS
+                li
+                  a(href='/products/categories/door-levers.aspx')
+                    img(alt='LEVERS', src='http://www.kwikset.com/Images/browse_levers.png')
+                    span LEVERS
+              
+                li
+                  a(href='/products/categories/door-knobs.aspx')
+                    img(alt='KNOBS', src='http://www.kwikset.com/Images/browse_knobs.png')
+                    span KNOBS
+                
+                li
+                  a(href='/products/categories/electronic-locks.aspx')
+                    img(alt='ELECTRONIC', src='http://www.kwikset.com/Images/browse_electronic_913_v2.png')
+                    span ELECTRONIC
+              
+                li.last
+                  a(href='/products/styles/kevo-electronic-deadbolt.aspx')
+                    img(alt='BLUETOOTH', src='http://www.kwikset.com/Images/browse_bluetooth.png')
+                    span BLUETOOTH
 
           h2 OR
           .search-wrap
             h3 Search All Products
             .input-wrap
               input(type="text", value="Enter a keyword or product number")
-              input(type="submit", value="")
+              input(type="submit", value="")                    
 
 
       section.section-footer
