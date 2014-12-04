@@ -80,6 +80,11 @@ a {
   text-decoration: none;
 }
 
+/* line 27, ../../src/styles/kwikset.scss */
+p > a {
+  color: #8d0019;
+}
+
 /* line 11, ../../src/styles/kwikset.scss */
 section:before, section:after {
   content: " ";
@@ -90,7 +95,7 @@ section:after {
   clear: both;
 }
 
-/* line 28, ../../src/styles/kwikset.scss */
+/* line 29, ../../src/styles/kwikset.scss */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -105,13 +110,13 @@ section:after {
   clear: both;
 }
 
-/* line 29, ../../src/styles/kwikset.scss */
+/* line 30, ../../src/styles/kwikset.scss */
 .cl-sm {
   clear: both;
 }
 
 /*HERO SECTION*/
-/* line 32, ../../src/styles/kwikset.scss */
+/* line 33, ../../src/styles/kwikset.scss */
 .stars {
   background: url(../img/review-stars.png) no-repeat;
   width: 151px;
@@ -119,7 +124,7 @@ section:after {
   margin: 0 auto 10px;
 }
 
-/* line 33, ../../src/styles/kwikset.scss */
+/* line 34, ../../src/styles/kwikset.scss */
 .text-special {
   background: url(../img/once-a-month.png) no-repeat;
   width: 113px;
@@ -128,7 +133,7 @@ section:after {
   margin: 0 auto 70px;
 }
 
-/* line 34, ../../src/styles/kwikset.scss */
+/* line 35, ../../src/styles/kwikset.scss */
 .section-hero {
   color: #fff;
   background: #000 url(../img/kwikset/bg-hero.jpg) no-repeat center center;
@@ -136,18 +141,18 @@ section:after {
   padding: 50px 0 30px;
   font-family: 'open-sans';
 }
-/* line 36, ../../src/styles/kwikset.scss */
+/* line 37, ../../src/styles/kwikset.scss */
 .section-hero h1 {
   font-size: 67px;
   font-weight: normal;
   text-transform: uppercase;
 }
-/* line 37, ../../src/styles/kwikset.scss */
+/* line 38, ../../src/styles/kwikset.scss */
 .section-hero h2 {
   font-size: 28px;
   font-weight: lighter;
 }
-/* line 38, ../../src/styles/kwikset.scss */
+/* line 39, ../../src/styles/kwikset.scss */
 .section-hero h2 span {
   font-weight: bold;
   text-transform: uppercase;
@@ -156,7 +161,7 @@ section:after {
   padding: 20px 0 10px;
 }
 
-/* line 41, ../../src/styles/kwikset.scss */
+/* line 42, ../../src/styles/kwikset.scss */
 .choose-product {
   border: 1px solid #8d0019;
   color: #8d0019;
@@ -175,19 +180,19 @@ section:after {
   text-transform: uppercase;
   font-weight: normal;
 }
-/* line 42, ../../src/styles/kwikset.scss */
+/* line 43, ../../src/styles/kwikset.scss */
 .choose-product:hover {
   color: #fff;
   text-decoration: none;
 }
 
 /*HOW TO ENTER SECTION*/
-/* line 46, ../../src/styles/kwikset.scss */
+/* line 47, ../../src/styles/kwikset.scss */
 .section-how-to-enter {
   background-color: #3f3f3f;
   color: #fff;
 }
-/* line 47, ../../src/styles/kwikset.scss */
+/* line 48, ../../src/styles/kwikset.scss */
 .section-how-to-enter h1 {
   margin: 50px auto 70px;
   background: url(../img/kwikset/txt-how-to-enter.png) no-repeat;
@@ -195,12 +200,12 @@ section:after {
   height: 23px;
   text-indent: -9999px;
 }
-/* line 48, ../../src/styles/kwikset.scss */
+/* line 49, ../../src/styles/kwikset.scss */
 .section-how-to-enter h2 {
   margin-bottom: 16px;
 }
 
-/* line 50, ../../src/styles/kwikset.scss */
+/* line 51, ../../src/styles/kwikset.scss */
 .img-how-to-enter {
   position: relative;
   width: 478px;
@@ -208,7 +213,7 @@ section:after {
   float: left;
 }
 
-/* line 51, ../../src/styles/kwikset.scss */
+/* line 52, ../../src/styles/kwikset.scss */
 .img-callout {
   padding: 45px 20px 0;
   position: absolute;
@@ -224,7 +229,7 @@ section:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 52, ../../src/styles/kwikset.scss */
+/* line 53, ../../src/styles/kwikset.scss */
 .img-callout h3 {
   font-size: 20px;
   margin-bottom: 12px;
@@ -233,7 +238,7 @@ section:after {
   color: #8d0019;
 }
 
-/* line 54, ../../src/styles/kwikset.scss */
+/* line 55, ../../src/styles/kwikset.scss */
 .txt-find {
   background: url(../img/kwikset/txt-find-your-product.png) no-repeat;
   width: 181px;
@@ -241,7 +246,7 @@ section:after {
   text-indent: -9999px;
 }
 
-/* line 56, ../../src/styles/kwikset.scss */
+/* line 57, ../../src/styles/kwikset.scss */
 .txt-write {
   background: url(../img/kwikset/txt-write-your-review.png) no-repeat;
   width: 182px;
@@ -249,7 +254,7 @@ section:after {
   text-indent: -9999px;
 }
 
-/* line 58, ../../src/styles/kwikset.scss */
+/* line 59, ../../src/styles/kwikset.scss */
 .list-how-to-enter {
   padding-left: 70px;
   margin-left: 80px;
@@ -257,12 +262,12 @@ section:after {
   position: absolute;
   left: 500px;
 }
-/* line 59, ../../src/styles/kwikset.scss */
+/* line 60, ../../src/styles/kwikset.scss */
 .list-how-to-enter > li {
   position: relative;
   margin-bottom: 30px;
 }
-/* line 61, ../../src/styles/kwikset.scss */
+/* line 62, ../../src/styles/kwikset.scss */
 .list-how-to-enter > li:before {
   content: '';
   width: 53px;
@@ -276,26 +281,26 @@ section:after {
   left: -70px;
   background: #5b595a;
 }
-/* line 62, ../../src/styles/kwikset.scss */
+/* line 63, ../../src/styles/kwikset.scss */
 .list-how-to-enter > li.step-1:before {
   content: '1';
 }
-/* line 63, ../../src/styles/kwikset.scss */
+/* line 64, ../../src/styles/kwikset.scss */
 .list-how-to-enter > li.step-2:before {
   content: '2';
 }
-/* line 64, ../../src/styles/kwikset.scss */
+/* line 65, ../../src/styles/kwikset.scss */
 .list-how-to-enter > li.step-3:before {
   content: '3';
 }
 
 /*TIPS SECTION*/
-/* line 70, ../../src/styles/kwikset.scss */
+/* line 71, ../../src/styles/kwikset.scss */
 .section-tips {
   background: #8d0019 url(../img/kwikset/bg-tips.png) center repeat-x;
   color: #fff;
 }
-/* line 71, ../../src/styles/kwikset.scss */
+/* line 72, ../../src/styles/kwikset.scss */
 .section-tips h1 {
   background: url(../img/kwikset/txt-tips-on-writing.png) no-repeat;
   width: 373px;
@@ -303,53 +308,53 @@ section:after {
   margin: 50px auto;
   text-indent: -9999px;
 }
-/* line 72, ../../src/styles/kwikset.scss */
+/* line 73, ../../src/styles/kwikset.scss */
 .section-tips h2 {
   margin-bottom: 12px;
   background: url(../img/kwikset/txt-tips.png) no-repeat;
   text-indent: -9999px;
   height: 11px;
 }
-/* line 74, ../../src/styles/kwikset.scss */
+/* line 75, ../../src/styles/kwikset.scss */
 .section-tips h2.tip-be-real {
   background-position: 0 0;
 }
-/* line 75, ../../src/styles/kwikset.scss */
+/* line 76, ../../src/styles/kwikset.scss */
 .section-tips h2.tip-be-respectful {
   background-position: 0 -11px;
 }
-/* line 76, ../../src/styles/kwikset.scss */
+/* line 77, ../../src/styles/kwikset.scss */
 .section-tips h2.tip-be-informative {
   background-position: 0 -22px;
 }
-/* line 77, ../../src/styles/kwikset.scss */
+/* line 78, ../../src/styles/kwikset.scss */
 .section-tips h2.tip-avoid {
   background-position: 0 -33px;
 }
-/* line 80, ../../src/styles/kwikset.scss */
+/* line 81, ../../src/styles/kwikset.scss */
 .section-tips p {
   color: #e4e4e4;
 }
 
-/* line 83, ../../src/styles/kwikset.scss */
+/* line 84, ../../src/styles/kwikset.scss */
 .list-tips > li {
   float: left;
   max-width: 390px;
   margin-bottom: 60px;
 }
-/* line 85, ../../src/styles/kwikset.scss */
+/* line 86, ../../src/styles/kwikset.scss */
 .list-tips > li:nth-child(even) {
   margin-left: 100px;
 }
 
 /*BROWSE SECTION*/
-/* line 90, ../../src/styles/kwikset.scss */
+/* line 91, ../../src/styles/kwikset.scss */
 .section-products {
   color: #3d3d3d;
   padding: 50px 0;
   background: #fff;
 }
-/* line 91, ../../src/styles/kwikset.scss */
+/* line 92, ../../src/styles/kwikset.scss */
 .section-products h1 {
   background: url(../img/kwikset/txt-choose-product.png) no-repeat;
   width: 433px;
@@ -357,7 +362,7 @@ section:after {
   margin: 0 auto 20px;
   text-indent: -9999px;
 }
-/* line 92, ../../src/styles/kwikset.scss */
+/* line 93, ../../src/styles/kwikset.scss */
 .section-products h2 {
   font-size: 24px;
   font-weight: normal;
@@ -365,7 +370,7 @@ section:after {
   padding: 30px 0;
 }
 
-/* line 94, ../../src/styles/kwikset.scss */
+/* line 95, ../../src/styles/kwikset.scss */
 .btn-browse {
   background: url(../img/btn-browse.png) no-repeat;
   width: 309px;
@@ -376,13 +381,13 @@ section:after {
   left: 10px;
   font-size: 15px;
 }
-/* line 95, ../../src/styles/kwikset.scss */
+/* line 96, ../../src/styles/kwikset.scss */
 .btn-browse:hover {
   text-decoration: none;
   background-position: 0 100%;
 }
 
-/* line 99, ../../src/styles/kwikset.scss */
+/* line 100, ../../src/styles/kwikset.scss */
 .list-browse-products > li {
   border: 1px solid #727272;
   position: relative;
@@ -391,29 +396,29 @@ section:after {
   display: inline-block;
   margin-left: 26px;
 }
-/* line 100, ../../src/styles/kwikset.scss */
+/* line 101, ../../src/styles/kwikset.scss */
 .list-browse-products > li img {
   position: absolute;
   z-index: 1;
 }
-/* line 101, ../../src/styles/kwikset.scss */
+/* line 102, ../../src/styles/kwikset.scss */
 .list-browse-products > li .btn-browse {
   position: absolute;
   bottom: 15px;
   z-index: 2;
 }
-/* line 102, ../../src/styles/kwikset.scss */
+/* line 103, ../../src/styles/kwikset.scss */
 .list-browse-products > li:first-child {
   margin-left: 0;
 }
 
-/* line 105, ../../src/styles/kwikset.scss */
+/* line 106, ../../src/styles/kwikset.scss */
 .search-wrap {
   width: 560px;
   margin: 0 auto;
   position: relative;
 }
-/* line 106, ../../src/styles/kwikset.scss */
+/* line 107, ../../src/styles/kwikset.scss */
 .search-wrap h3 {
   font-size: 14px;
   font-weight: normal;
@@ -422,7 +427,7 @@ section:after {
   top: 18px;
 }
 
-/* line 108, ../../src/styles/kwikset.scss */
+/* line 109, ../../src/styles/kwikset.scss */
 .input-wrap {
   position: relative;
   width: 330px;
@@ -431,7 +436,7 @@ section:after {
   overflow: hidden;
   margin-left: 225px;
 }
-/* line 109, ../../src/styles/kwikset.scss */
+/* line 110, ../../src/styles/kwikset.scss */
 .input-wrap input[type="text"] {
   background: #fff;
   font-weight: lighter;
@@ -445,7 +450,7 @@ section:after {
   width: 80%;
   height: 100%;
 }
-/* line 110, ../../src/styles/kwikset.scss */
+/* line 111, ../../src/styles/kwikset.scss */
 .input-wrap input[type="text"]:focus {
   font-style: normal;
   font-weight: normal;
@@ -455,7 +460,7 @@ section:after {
   outline: none;
   border: none;
 }
-/* line 112, ../../src/styles/kwikset.scss */
+/* line 113, ../../src/styles/kwikset.scss */
 .input-wrap input[type="submit"] {
   border: none;
   text-indent: -9999px;
@@ -467,14 +472,14 @@ section:after {
 }
 
 /*FOOTER SECTION*/
-/* line 116, ../../src/styles/kwikset.scss */
+/* line 117, ../../src/styles/kwikset.scss */
 .section-footer {
   background: #2a2a2a;
   color: #aaa;
   font-size: 12px;
   padding: 50px 0;
 }
-/* line 117, ../../src/styles/kwikset.scss */
+/* line 118, ../../src/styles/kwikset.scss */
 .section-footer a {
   text-decoration: underline;
   color: #8d0019;

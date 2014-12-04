@@ -24,6 +24,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6{line-height:1}
 a{text-decoration:none;}
+p>a{color:$teal;}
 section{@include clearfix();}
 .container{max-width:1050px;margin:0 auto;@include clearfix();}
 .cl-sm{clear:both;}
